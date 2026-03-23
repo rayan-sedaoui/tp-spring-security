@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard User</title>
+</head>
+<body>
+<h2>Espace Utilisateur</h2>
+<p>Accessible aux rôles USER et ADMIN.</p>
+
+<form th:action="@{/logout}" method="post" style="display: inline;">
+    <button type="submit" style="background: none; border: none; color: #2b5797; text-decoration: underline; cursor: pointer; font-size: 16px; padding: 0;">
+        Se déconnecter
+    </button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Accès Refusé</title>
+    <style>
+        body { font-family: Arial; background-color: #f4f4f4; text-align: center; margin-top: 100px; }
+        .error-box {
+            background: white; padding: 40px; border-radius: 8px; border-top: 5px solid red;
+            width: 400px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: red; margin-bottom: 10px; }
+        .btn {
+            display: inline-block; padding: 10px 20px; margin-top: 20px;
+            background: #2b5797; color: white; text-decoration: none; border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="error-box">
+    <h1>Erreur 403</h1>
+    <h2>Accès Refusé</h2>
+    <p>Désolé, vous n'avez pas les permissions nécessaires pour accéder à cette page.</p>
+
+    <a th:href="@{/home}" class="btn">Retour à l'accueil</a>
+</div>
+
+</body>
+</html>

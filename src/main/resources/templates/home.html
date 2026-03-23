@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bienvenue</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif; margin: 20px;">
+<h2>Bienvenue dans l'application sécurisée</h2>
+<p>Connexion réussie ! Choisissez votre espace :</p>
+<ul>
+    <li><a th:href="@{/user-dashboard}">Espace Utilisateur</a></li>
+    <li><a th:href="@{/admin-dashboard}">Espace Administrateur</a></li>
+</ul>
+<br>
+<form th:action="@{/logout}" method="post" style="display:inline;">
+    <button type="submit" style="background:none; border:none; color:blue; text-decoration:underline; cursor:pointer; font-family:serif; font-size:16px; padding:0;">Se déconnecter</button>
+</form>
+</body>
+</html>
