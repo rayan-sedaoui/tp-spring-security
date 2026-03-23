@@ -20,6 +20,7 @@ Ce projet est une application web Spring Boot démontrant la mise en place d'une
 
 
 <img width="521" height="923" alt="Screenshot 2026-03-23 022906" src="https://github.com/user-attachments/assets/d99b69ba-b80b-4c7b-bf8b-c5b4d5841bb0" />
+<img width="535" height="954" alt="Screenshot 2026-03-23 022918" src="https://github.com/user-attachments/assets/c3cace59-fe00-4122-9b74-982513f1f133" />
 
 
 ## Prérequis
