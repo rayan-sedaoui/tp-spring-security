@@ -24,9 +24,6 @@ https://github.com/user-attachments/assets/4ff6c47b-5abd-44ee-bdf6-7ab1227cd180
 
 
 
-## Lien du tp 
-
-http://localhost:8080/login?error
 
 ## Architecture de tp 
 
